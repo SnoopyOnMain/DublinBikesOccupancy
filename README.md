@@ -45,7 +45,7 @@ Key variables:
 - Engineered an **occupancy rate** feature for each station and timestamp:
 
   \[
-  \text{occupancy\_rate} = \frac{\text{total\_stands} - \text{available\_stands}}{\text{total\_stands}}
+ occupancy_rate = total_stands - available_stands\total_stands
   \]
 
   This measures the proportion of stands currently occupied and normalises usage across stations with different capacities. [web:85]
